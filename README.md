@@ -1,23 +1,23 @@
 # Ancients_cry
 The cry of the final machines 
-type: mech
-name: Parave
-description: Fires homing missiles at enemies. Cannot cross terrain.
+type: boss
+name: origin
+description: the king of the plague. will go over all terrain .
 hovering: true
 hoverable: true
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-drag: 0.08
+drag: 0.06
 outlineColor: 44413c
-speed: 1.6666666666667
-rotateSpeed: 5
+speed: 0.7
+rotateSpeed: 2
 accel: 0.095
 groundLayer: 60
-health: 210
-armor: 1
-hitSize: 6
+health: 2000000
+armor: 490
+hitSize: 20
 canDrown: false
 researchCostMultiplier: 1.5
 research: {
@@ -54,21 +54,21 @@ weapons: [
     mirror: true
     alternate: true
     reload: 48
-    rotate: false
+    rotate: true
     shootSound: missile
     shoot: {
       shots: 3
       shotDelay: 5
     }
     bullet: {
-      type: MissileBulletType
-      speed: 3
-      lifetime: 40
-      damage: 9
-      width: 3
-      height: 6
-      trailWidth: 1
-      trailLength: 4
+      type: brokenbolttype
+      speed: 10
+      lifetime: 70
+      damage: 2000
+      width: 2
+      height: 10
+      trailWidth: 3
+      trailLength: 8
       pierce: false
       shrinkX: 0
       shrinkY: 0
